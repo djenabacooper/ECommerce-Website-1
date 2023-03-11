@@ -1,0 +1,43 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 50;
+}
+header {
+  background-color: white;
+  position: relative;
+  padding: 1rem;
+}
+
+header a{
+    position: relative;
+    text-align: center;
+    left: 47rem;
+}
+
+
+nav a {
+  text-decoration: none;
+  display: inline;
+  position:relative;
+  padding: 1rem;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0.7rem;
+  left: 1rem;
+}
+nav li {
+  display: inline-block;
+  margin-inline: 1.5rem;
+  text-align: left;
+
+}
+
+.HOME img {
+    float: left;
+    width: 1800px;
+    height: 500px;
+}

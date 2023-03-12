@@ -8,7 +8,7 @@ header {
   padding: 1rem;
 }
 
-header a {
+nav header {
   position: relative;
   text-align: center;
   left: 47rem;
@@ -17,7 +17,6 @@ header a {
 nav a {
   text-decoration: none;
   display: inline;
-  position: relative;
   padding: 1rem;
 }
 
@@ -33,7 +32,7 @@ nav li {
 }
 
 .container img {
-  float: left;
+  position: fixed;
   width: 1800px;
   height: 500px;
 }
@@ -96,4 +95,30 @@ h1 {
   height: 200px;
   margin:auto;
   padding: 10%;
+}
+
+.footer_content {
+  display: grid;
+  grid-template-areas: 
+  "top-l top-l2 mid top-r top-r2";
+
+}
+
+footer {
+  background-color: #BF7631;
+  padding: .5rem;
+  position:fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+footer h1 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+footer img{
+  width: 25px;
+  height: 25px;
 }

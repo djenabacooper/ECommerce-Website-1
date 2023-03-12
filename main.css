@@ -51,14 +51,15 @@ h1 {
 
 .about_content {
   display: grid;
-  grid-template-areas:
-    "top-1 top-2 top-3";
+  align-items: center;
+  grid-template-areas: 
+  "top-1 top top-r";
 }
 
 .about_first_img img {
   display: grid;
   grid-column: 1/3;
-  position:right;
+  position:left;
   width: 250px;
   height: 350px;
 }
@@ -67,6 +68,7 @@ h1 {
   display: grid;
   grid-column: 2/3;
   width: 100%;
+  align-content: left;
     
 }
 
@@ -95,6 +97,15 @@ h1 {
   height: 200px;
   margin:auto;
   padding: 10%;
+}
+
+.contact h1{
+  text-align: left;
+}
+
+.contact{
+  text-align: center;
+  font-size:larger;
 }
 
 .footer_content {

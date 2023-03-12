@@ -15,9 +15,9 @@ nav header {
 }
 
 nav a {
-  text-decoration: none;
-  display: inline;
+  position: relative;
   padding: 1rem;
+  text-align: center;
 }
 
 nav ul {
@@ -106,6 +106,12 @@ h1 {
 .contact{
   text-align: center;
   font-size:larger;
+}
+
+h2 a{
+  color:black;
+  font-size: medium;
+  
 }
 
 .footer_content {
